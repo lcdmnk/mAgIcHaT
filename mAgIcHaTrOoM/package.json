@@ -1,0 +1,18 @@
+{
+  "name": "mAgIcHaTrOoM",
+  "version": "1.0.0",
+  "description": "mAgIcHaTrOoM",
+  "source":  "src/index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
